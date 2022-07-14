@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;700&display=swap');
+body  {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.imageContainer {
+    position: relative;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.imageRight {
+    position: absolute;
+    top: 30%;
+    right: 18%;
+    padding: 5px;
+    transform: skew(357deg,339deg);
+    color: white;
+}
+
+.imageLeft {
+    position: absolute;
+    top: 42%;
+    left: 21%;
+    padding: 5px;
+    transform: skew(358deg,34deg);
+    color: white;
+    border: 1px solid #ffffff;
+}
+
+.imageRight h3 {
+    margin: 0;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.imageRight .firstData {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.imageRight .secondData {
+    display: flex;  
+    flex-direction: column;  
+    margin-bottom: 20px;
+}
+.imageRight .secondData .flex {
+    display: flex;
+    padding: 1px;
+    font-size: 14px;
+}
+
+.imageRight .thirdData {
+    font-size: 14px;
+    display: flex;
+    transform: rotate(358deg);
+}
+
+.imageRight .thirdData div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.rowData {
+ display: flex;
+}
+
+.rowData .secondspan {
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table td {
+    text-align: left;
+}
+
+table td .tablePad {
+    margin: 0 0 0 10px;
+}
